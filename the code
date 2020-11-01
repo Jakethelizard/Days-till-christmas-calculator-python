@@ -1,0 +1,43 @@
+# M = Month, D = Day
+M = int(input("What month is it (type in number form): "))
+D = int(input("What day is it (type in number form): "))
+
+# january
+if M == int(1):
+    M = 365
+# february
+if M == int(2):
+    M = 337
+# March
+if M == int(3):
+    M = 306
+# April
+if M == int(4):
+    M = 276
+# May
+if M == int(5):
+    M = 245
+# June
+if M == int(6):
+    M = 215
+# July
+if M == int(7):
+    M = 184
+# August
+if M == int(8):
+    M = 153
+# September
+if M == int(9):
+    M = 122
+# October
+if M == int(10):
+    M = 91
+# November
+if M == int(11):
+    M = 61
+# December
+if M == int(12):
+    M = 30
+# Math stuff
+Final = M - D - 6
+print("There are " + str(Final) + " days till Christmas")
